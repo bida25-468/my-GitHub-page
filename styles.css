@@ -39,7 +39,9 @@ color: white;
 
 text-decoration: none;
 
-margin: 0 10px;
+margin: 0 15px;
+  front-size: 1 . 1em;
+  front-weight: bold;
 
 }
 
@@ -47,6 +49,7 @@ margin: 0 10px;
 nav a:hover {
 
 text-decoration: underline;
+  colour: #e0e0e0;
 
 }
 
