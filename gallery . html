@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Food Gallery - Flame & Fries</title>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+
+<div class="container mt-5">
+
+<h2 class="text-center">Flame & Fries Food Gallery</h2>
+<p class="text-center">Explore our delicious variety of meals</p>
+
+
+<!-- Burgers -->
+<h3 class="mt-5">Burgers</h3>
+
+<div class="row">
+
+<div class="col-md-4">
+<img src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd"
+class="img-fluid rounded shadow">
+<p class="text-center">Flame Burger</p>
+</div>
+
+<div class="col-md-4">
+<img src="https://images.unsplash.com/photo-1550547660-d9450f859349"
+class="img-fluid rounded shadow">
+<p class="text-center">Double Cheese Burger</p>
+</div>
+
+<div class="col-md-4">
+<img src="https://images.unsplash.com/photo-1606755962773-d324e0a13086"
+class="img-fluid rounded shadow">
+<p class="text-center">Chicken Burger</p>
+</div>
+
+</div>
+
+
+<!-- Fries -->
+<h3 class="mt-5">Fries & Chips</h3>
+
+<div class="row">
+
+<div class="col-md-4">
+<img src="https://images.unsplash.com/photo-1541592106381-b31e9677c0e5"
+class="img-fluid rounded shadow">
+<p class="text-center">Crispy Fries</p>
+</div>
+
+<div class="col-md-4">
+<img src="https://images.unsplash.com/photo-1639024471283-03518883512d"
+class="img-fluid rounded shadow">
+<p class="text-center">Loaded Cheese Fries</p>
+</div>
+
+<div class="col-md-4">
+<img src="https://images.unsplash.com/photo-1600891963935-cdf9d7e06e3f"
+class="img-fluid rounded shadow">
+<p class="text-center">Spicy Fries</p>
+</div>
+
+</div>
+
+
+<!-- Fried Chicken -->
+<h3 class="mt-5">Fried Chicken</h3>
+
+<div class="row">
+
+<div class="col-md-4">
+<img src="https://images.unsplash.com/photo-1562967916-eb82221dfb36"
+class="img-fluid rounded shadow">
+<p class="text-center">Fried Chicken</p>
+</div>
+
+<div class="col-md-4">
+<img src="https://images.unsplash.com/photo-1625944525903-b2c3e5a8c3f4"
+class="img-fluid rounded shadow">
+<p class="text-center">Chicken Wings</p>
+</div>
+
+<div class="col-md-4">
+<img src="https://images.unsplash.com/photo-1600891964092-4316c288032e"
+class="img-fluid rounded shadow">
+<p class="text-center">Chicken Nuggets</p>
+</div>
+
+</div>
+
+
+<!-- Milkshakes -->
+<h3 class="mt-5">Milkshakes</h3>
+
+<div class="row">
+
+<div class="col-md-4">
+<img src="https://images.unsplash.com/photo-1572490122747-3968b75cc699"
+class="img-fluid rounded shadow">
+<p class="text-center">Vanilla Milkshake</p>
+</div>
+
+<div class="col-md-4">
+<img src="https://images.unsplash.com/photo-1586190848861-99aa4a171e90"
+class="img-fluid rounded shadow">
+<p class="text-center">Chocolate Milkshake</p>
+</div>
+
+<div class="col-md-4">
+<img src="https://images.unsplash.com/photo-1600891963930-c7c3a65c3b2c"
+class="img-fluid rounded shadow">
+<p class="text-center">Strawberry Milkshake</p>
+</div>
+
+</div>
+
+
+<!-- Soft Drinks -->
+<h3 class="mt-5">Soft Drinks</h3>
+
+<div class="row">
+
+<div class="col-md-4">
+<img src="https://images.unsplash.com/photo-1622483767028-3f66f32e0c3c"
+class="img-fluid rounded shadow">
+<p class="text-center">Coca-Cola</p>
+</div>
+
+<div class="col-md-4">
+<img src="https://images.unsplash.com/photo-1624517452488-04869289c4ca"
+class="img-fluid rounded shadow">
+<p class="text-center">Fanta</p>
+</div>
+
+<div class="col-md-4">
+<img src="https://images.unsplash.com/photo-1598514982841-93f4c7b7e36d"
+class="img-fluid rounded shadow">
+<p class="text-center">Sprite</p>
+</div>
+
+</div>
+
+</div>
+
+</body>
+</html>
