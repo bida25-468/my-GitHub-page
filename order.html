@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Order - Flame & Fries</title>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+
+<div class="container mt-5">
+
+<h2 class="text-center">Place Your Order</h2>
+<p class="text-center">Order your favourite meals from Flame & Fries</p>
+
+<form>
+
+<!-- Customer Name -->
+<div class="mb-3">
+<label class="form-label">Full Name</label>
+<input type="text" class="form-control" placeholder="Enter your name" required>
+</div>
+
+<!-- Phone Number -->
+<div class="mb-3">
+<label class="form-label">Phone Number</label>
+<input type="tel" class="form-control" placeholder="Enter phone number" required>
+</div>
+
+  !-- Food Category -->
+<div class="mb-3">
+<label class="form-label">Choose Food</label>
+<select class="form-select" required>
+<option selected disabled>Select your meal</option>
+<option>Flame Burger</option>
+<option>Chicken Burger</option>
+<option>Loaded Fries</option>
+<option>Spicy Fries</option>
+<option>Fried Chicken</option>
+<option>Chicken Wings</option>
+<option>Milkshake</option>
+<option>Soft Drink</option>
+</select>
+</div>
+
+<!-- Quantity -->
+<div class="mb-3">
+<label class="form-label">Quantity</label>
+<input type="number" class="form-control" min="1" value="1">
+</div>
+
+<!-- Delivery Option -->
+<div class="mb-3">
+<label class="form-label">Delivery Method</label><br>
+
+<input type="radio" name="delivery"> Pickup<br>
+<input type="radio" name="delivery"> Home Delivery
+</div>
+
+<!-- Address -->
+<div class="mb-3">
+<label class="form-label">Delivery Address</label>
+<textarea class="form-control" rows="3" placeholder="Enter delivery address"></textarea>
+</div>
+
+<!-- Special Instructions -->
+<div class="mb-3">
+<label class="form-label">Special Instructions</label>
+<textarea class="form-control" rows="3" placeholder="Extra sauce, no onions, etc"></textarea>
+</div>
+
+<!-- Submit Button -->
+<button type="submit" class="btn btn-danger w-100">
+Place Order
+</button>
+
+</form>
+
+</div>
+
+</body>
+</html>  
